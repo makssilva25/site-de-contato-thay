@@ -275,3 +275,116 @@ footer {
 .tabela-principal {
     margin-top: 15px;
 }
+.ajustar-tamanho {
+    height: 700px;
+}
+
+/*painel mensagem individual*/
+.titulo-painel h2 {
+    font-size: 22px;
+}
+.painel-mensagem {
+    margin-top: 30px;
+}
+.mensagem-individual h2 {
+    font-size: 22px;
+    font-weight: 600;
+}
+.mensagem-individual p {
+    font-size: 18px;
+}
+.mensagem-individual {
+    display: flex;
+    justify-content: space-between;
+
+}
+.mensagem-individual--interno {
+    width: 700px;
+    height: 115px;
+}
+.mensagem-individual--interno {
+    width: 400px;
+    height: 130px;
+}
+
+.botao-voltar.col-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.botao-voltar a {
+    padding: 10px 25px;
+}
+.margem{
+    margin-left: 10px;
+}
+
+
+/* mobile menu */
+
+@media only screen and (max-width: 991px) {
+    .menu-lateral {
+     /*   position: absolute;
+        z-index: 400;
+        top: -100px;
+        background: #ff8585;
+        right: -286px;
+        height: 100%;
+        padding: 8px;
+        display: none;
+        padding-top: 21px;*/
+    }
+    .mobile-menu {
+        right: 0;
+        display: block;
+    }
+
+    .conteudo {
+        order: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .formulario {
+        order: 3;
+        display: flex;
+        justify-content: center;
+    }
+    .formulario--interno {
+        margin-top: 110px;
+        width: 400px;
+    }
+
+    .menu-lateral-principal {
+        display: flex;
+        justify-content: end;
+        order: 2;
+    }
+
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .menu-lateral a {
+        font-size: 15px;
+
+    }
+    .conteudo--contato__tel p {
+        font-size: 12px;
+
+    }
+
+}
+
+@media only screen and (max-width: 440px) {
+
+    .conteudo--titulo__interno a {
+        font-size: 16px;
+ 
+    }
+    .conteudo--titulo__interno .social {
+        display: none;
+    }
+
+}
